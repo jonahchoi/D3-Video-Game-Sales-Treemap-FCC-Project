@@ -1,0 +1,26 @@
+body{
+  font-family:Verdana, sans-serif;
+}
+#container{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+#title{
+  font-size: 3rem;
+  margin-bottom:0.5rem;
+  margin-top:3rem;
+  
+}
+
+#tooltip{
+  position:absolute;
+  background: rgba(220, 221, 225,0.9);
+  padding: 5px;
+  border-radius:3px;
+  pointer-events:none;
+}
+svg{
+  margin-bottom: -75px;
+}
